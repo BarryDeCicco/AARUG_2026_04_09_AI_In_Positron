@@ -25,7 +25,13 @@ format:
 <p>
 .. [AI-Powered Data Science in Positron (Posit)](https://www.youtube.com/watch?v=TrN-FMcOsOA&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=5)
 <p>
-### Websites and Blogs:
+
+### Websites, Blogs and Documentation:
 <p>
-.. Positron IDE official website: [https://positron.ai/](https://positron.ai/)<p>
-.. Positron IDE documentation: [https://docs.positron.ai/](https://
+.. [Positron IDE official website:](https://positron.ai/)
+<p>
+.. [Positron IDE documentation:](https://docs.positron.ai/)
+<p>
+.. [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
+<p>
+

@@ -14,16 +14,17 @@ format:
 
 ### YouTube Videos:
 <p>
-. Installlation and set-up of Positron IDE:
-.. [Positron IDE for R & Python | How to Install & Use | Better than RStudio? (Statistics Globe)](https://www.youtube.com/watch?v=VPHuCl8asjQ&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=9&t=1s)
+..Installlation and set-up of Positron IDE:
 <p>
-.. [First look at Positron, exploring orca encounters (by Julia Silge, Posit)](https://www.youtube.com/watch?v=5BojM5EciPs)
+..[Positron IDE for R & Python | How to Install & Use | Better than RStudio? (Statistics Globe)](https://www.youtube.com/watch?v=VPHuCl8asjQ&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=9&t=1s)
 <p>
-. AI features in Positron:
+..[First look at Positron, exploring orca encounters (by Julia Silge, Posit)](https://www.youtube.com/watch?v=5BojM5EciPs)
 <p>
-.. [How to use Positron's GitHub integration (Posit)](https://www.youtube.com/watch?v=JTv4IbFzI7M&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=2)
+..AI features in Positron:
 <p>
-.. [AI-Powered Data Science in Positron (Posit)](https://www.youtube.com/watch?v=TrN-FMcOsOA&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=5)
+..[How to use Positron's GitHub integration (Posit)](https://www.youtube.com/watch?v=JTv4IbFzI7M&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=2)
+<p>
+..[AI-Powered Data Science in Positron (Posit)](https://www.youtube.com/watch?v=TrN-FMcOsOA&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=5)
 <p>
 
 ### Websites, Blogs and Documentation:

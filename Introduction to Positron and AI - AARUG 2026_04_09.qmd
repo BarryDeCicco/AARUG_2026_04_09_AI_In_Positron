@@ -35,9 +35,9 @@ format:
 <p>
  - [Welcome (Posit)](https://positron.posit.co/welcome.html)
  <p>
-  - [Install Positron (Posit)](https://positron.posit.co/install.html)
+    - [Install Positron (Posit)](https://positron.posit.co/install.html)
   <p>
- - [Positron Tutorials (Posit)](https://ppbds.github.io/positron.tutorials/)
+ - [Positron Tutorials (Posit)](https://ppbds.github.io/positron.tutorials/) - an R package of tutorials!
  <p>
  - [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
 <p>

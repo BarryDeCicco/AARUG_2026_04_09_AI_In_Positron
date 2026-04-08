@@ -1,0 +1,21 @@
+---
+title: "Introduction to Positron and AI"
+format: html
+---
+
+# Sections:
+<p>
+
+
+
+# Sources and References
+
+YouTube Videos:<p>
+. Installlation and set-up of Positron IDE:
+.. [Positron IDE for R & Python | How to Install & Use | Better than RStudio? (Statistics Globe)](https://www.youtube.com/watch?v=VPHuCl8asjQ&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=9&t=1s)<p>
+.. [First look at Positron, exploring orca encounters (by Julia Silge, Posit)](https://www.youtube.com/watch?v=5BojM5EciPs)<p>
+. AI features in Positron:<p>
+.. [How to use Positron's GitHub integration (Posit)]](https://www.youtube.com/watch?v=JTv4IbFzI7M&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=2)https://www.youtube.com/watch?v=ndq2Mm3Dju8&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=7https://www.youtube.com/watch?v=JTv4IbFzI7M&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=2)<p>
+.. [AI-Powered Data Science in Positron (Posit)](https://www.youtube.com/watch?v=TrN-FMcOsOA&list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&index=5)<p>
+
+

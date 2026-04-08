@@ -33,6 +33,18 @@ format:
 <p>
  - [Positron IDE documentation:](https://docs.positron.ai/)
 <p>
+ - [Welcome (Posit)](https://positron.posit.co/welcome.html)
+ <p>
+  - [Install Positron (Posit)](https://positron.posit.co/install.html)
+  <p>
+ - [Positron Tutorials (Posit)](https://ppbds.github.io/positron.tutorials/)
+ <p>
  - [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
 <p>
+
+### Other Resources:
+<p>
+ - [Pyrefly - Python Language Tooling (recommended Python for Positron)](https://open-vsx.org/extension/meta/pyrefly)
+<p>
+
 

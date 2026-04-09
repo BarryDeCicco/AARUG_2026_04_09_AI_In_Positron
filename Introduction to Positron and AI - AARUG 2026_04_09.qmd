@@ -24,9 +24,13 @@ The Positron IDE offers a range of features, including:
 # Installation and Set-up (https://positron.posit.co/install.html):
 <p>
 ## Check Prerequisites:
-<p> Before installing Positron, ensure that your system meets the following requirements:
+<p>
+ Before installing Positron, ensure that your system meets the following requirements
+<p>
 - Operating System: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+<p>
 - Hardware: A modern computer with at least 8 GB of RAM and a multi-core processor is recommended for optimal performance.
+<p>
 - Software: Ensure that you have the latest version of R and Python installed on your system, as Positron relies on these languages for its
 functionality.
 <p>

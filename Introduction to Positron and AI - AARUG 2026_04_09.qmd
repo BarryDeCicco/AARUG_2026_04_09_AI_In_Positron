@@ -7,10 +7,70 @@ format:
 
 # Sections:
 <p>
+## What is the Positron IDE?
+<p>
+The positron IDE is a new integrated development environment (IDE) designed for data science and programming in R and Python. It is developed by Posit, the company behind RStudio, and aims to provide a modern, efficient, and AI-powered coding experience for data scientists and programmers.
+<p>
+The Positron IDE offers a range of features, including:
+- A sleek and intuitive user interface that is designed to enhance productivity and ease of use.
+- Support for both R and Python programming languages, allowing users to work with their preferred language in a single environment.
+- AI-powered code completion and suggestions, which can help users write code faster and with fewer errors.
+- Integration with GitHub for version control and collaboration.
+- A built-in terminal for running commands and scripts directly within the IDE.
+
+### Note:  The user intface has clear roots in RStudio, but has a very large number of changes.
+<p>
+<p>
+# Installation and Set-up (https://positron.posit.co/install.html):
+<p>
+## Check Prerequisites:
+<p> Before installing Positron, ensure that your system meets the following requirements:
+- Operating System: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+- Hardware: A modern computer with at least 8 GB of RAM and a multi-core processor is recommended for optimal performance.
+- Software: Ensure that you have the latest version of R and Python installed on your system, as Positron relies on these languages for its
+functionality.
+<p>
+### Note:  I found out that intalling Pyrefly (https://open-vsx.org/extension/meta/pyrefly) worked better.
+<p>
+## Download and Install Positron for Windows (or other systems)
+<p>
+In the middle of the Welcome page (https://positron.posit.co/welcome.html) has options such as:
+ - Get Started (download/install)
+ - Explore Features
+ - Customize your IDE
+ - Set up your environment
+ - Migrate from RStudio
+ - Migrate from VS Code.
+<p>
+## User Interface Overview: 
+One major feature is the Command Palette, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE.
+<b>Note:  you frequently have to search for the command that you want.</b>
+<p>
+Left Side:  File Explorer, GitHub, Search, Extensions, and Settings:
+ - File Explorer:  allows you to navigate and manage your project files and folders.
+ - GitHub:  provides integration with GitHub for version control and collaboration.
+ - Search:  allows you to search for files, symbols, and text within your project.
+ - Extensions:  allows you to browse and install extensions to enhance the functionality of the IDE.
+ - Settings:  provides access to various settings and preferences for customizing your IDE experience.
+ - AI Assistant:  provides access to AI-powered features such as code completion, suggestions, and more. You can interact with the AI Assistant to get help with coding tasks, generate code snippets, and receive recommendations for improving your code.
+
+## Setting up the AI Assistant:
+To set up the AI Assistant in Positron, you can follow these steps:
+
+
+## Setting up GitHub Integration: (https://positron.posit.co/git.html)L
+This works similarly to RStudio, but with a more modern interface. You can connect your GitHub account to Positron and manage your repositories directly from the IDE. This allows you to easily commit changes, push updates, and collaborate with others on your projects.
+ - Open Folder to open an existing Git repository that you already have locally
+ - New Folder from Template to create a new folder locally, with the option to initialize it as a Git repository
+ - New Folder from Git to clone an existing Git repository from a remote source like GitHub
 
 
 
-# Sources and References
+
+
+
+<p>
+## Sources and References
 
 ### YouTube Videos:
 <p>

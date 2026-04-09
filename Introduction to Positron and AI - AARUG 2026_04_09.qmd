@@ -75,11 +75,11 @@ Before installing Positron, ensure that your system meets the following requirem
 
     ## User Interface Overview:
 
-    One major feature is the Command Palette, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE. <b>Note: you frequently have to search for the command that you want.</b>
+    One new major feature is the Command Palette, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE. <b>Note: you frequently have to search for the command that you want.</b>
+
+    A second feature is the <b>left sidebar</b>, which has a series of icons:
 
     <p>
-
-    Left Side: File Explorer, GitHub, Search, Extensions, and Settings:
 
 -   File Explorer: allows you to navigate and manage your project files and folders.
 
@@ -91,7 +91,7 @@ Before installing Positron, ensure that your system meets the following requirem
 
 -   Settings: provides access to various settings and preferences for customizing your IDE experience.
 
--   AI Assistant: provides access to AI-powered features such as code completion, suggestions, and more. You can interact with the AI Assistant to get help with coding tasks, generate code snippets, and receive recommendations for improving your code.
+-   AI Assistant: provides access to AI-powered features such as code completion, suggestions, and more. You can interact with the AI Assistant to get help with coding tasks, generate code snippets, and receive recommendations for improving your code. This will appear once you have set up the AI Assistant with a source software (e.g., Claude AI).
 
 ## Setting up GitHub Integration: (https://positron.posit.co/git.html)L
 

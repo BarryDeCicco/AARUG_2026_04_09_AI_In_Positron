@@ -95,13 +95,20 @@ Before installing Positron, ensure that your system meets the following requirem
 
 ## Setting up GitHub Integration: (https://positron.posit.co/git.html)L
 
-This works similarly to RStudio, but with a more modern interface. You can connect your GitHub account to Positron and manage your repositories directly from the IDE. This allows you to easily commit changes, push updates, and collaborate with others on your projects. - Open Folder to open an existing Git repository that you already have locally - New Folder from Template to create a new folder locally, with the option to initialize it as a Git repository - New Folder from Git to clone an existing Git repository from a remote source like GitHub -
-
+This works similarly to RStudio, but with a different interface. You can connect your GitHub account to Positron and manage your repositories directly from the IDE. This allows you to easily commit changes, push updates, and collaborate with others on your projects. - Open Folder to open an existing Git repository that you already have locally - New Folder from Template to create a new folder locally, with the option to initialize it as a Git repository - New Folder from Git to clone an existing Git repository from a remote source like GitHub -
 <p>
-
-You can use the button in the lower left corner to set up a connection with Github and sign into Github:
+ - You can use the button in the lower left corner to set up a connection with Github and sign into Github:
 
 ![](images/paste-1.png)
+
+ - Alternatively, you can use the Command Palette to search for GitHub-related commands, such as "GitHub: Sign In" or "GitHub: Clone Repository," to set up your GitHub integration.
+
+ - To clone a repository, you can use the "GitHub: Clone Repository" command in the Command Palette, which will prompt you to enter the URL of the repository you want to clone. Once you provide the URL, Positron will handle the cloning process and set up the repository in your local environment.
+
+ - To publish local work to GitHub, you can use the "GitHub: Publish Repository" command in the Command Palette. This will allow you to create a new repository on GitHub and push your local changes to it directly from the IDE.
+
+ The left sidebar also provides a GitHub icon that you can click to access your repositories, view changes, and manage your GitHub integration more easily:
+![](images/paste-2.png)
 
 ## Setting up the AI Assistant:
 

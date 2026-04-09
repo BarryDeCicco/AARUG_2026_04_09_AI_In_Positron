@@ -150,34 +150,26 @@ To set up the AI Assistant in Positron, you can follow these steps:
         <p>
 
 ### Websites, Blogs and Documentation:
-
 <p>
-
--   [Positron IDE official website:](https://positron.ai/)
-
-    <p>
-
--   [Positron IDE documentation:](https://docs.positron.ai/)
-
-    <p>
-
--   [Welcome (Posit)](https://positron.posit.co/welcome.html)
-
-    <p>
-
-    -   [Install Positron (Posit)](https://positron.posit.co/install.html)
-
-        <p>
-
--   [Positron Tutorials (Posit)](https://ppbds.github.io/positron.tutorials/) - an R package of tutorials!
-
-    <p>
-
--   [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
-
-    <p>
-
--   \[Troubleshooting (Posit)\] (https://positron.posit.co/troubleshooting.html)
+- [Positron IDE official website:](https://positron.ai/)
+<p>
+- [Positron IDE documentation:](https://docs.positron.ai/)
+<p>
+- [Welcome (Posit)](https://positron.posit.co/welcome.html)
+<p>
+- [Install Positron (Posit)](https://positron.posit.co/install.html)
+<p>
+- [Positron Assistant - Getting Started (Posit docs)](https://positron.posit.co/assistant-getting-started.html)
+<p>
+- [Positron Assistant (Posit docs)](https://docs.posit.co/ide/server-pro/user/positron/guide/positron-assistant.html)
+<p>
+- [Positron Assistant (Posit)](https://positron.posit.co/assistant.html)
+<p>
+- [Positron Tutorials (Posit)](https://ppbds.github.io/positron.tutorials/) - an R package of tutorials!
+<p>
+- [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
+<p>
+- [Troubleshooting (Posit)] (https://positron.posit.co/troubleshooting.html)
 
 ### Other Resources:
 

@@ -113,11 +113,38 @@ The left sidebar also provides a GitHub icon that you can click to access your r
 
 ![](images/paste-2.png)
 
-## Setting up the AI Assistant:
+## [Setting up the AI Assistant:](positron.posit.co/assistant-getting-started.html)
 
 To set up the AI Assistant in Positron, you can follow these steps:
+<p>
+- Enable the setting positron.assistant.enable in the settings menu (gear at the bottom of the left sidebar). This will allow you to access the AI Assistant features within the IDE.
+<p>
+- Restart Positron or run the Developer: Reload Window command in the Command Palette. This will ensure that the changes take effect and the AI Assistant is properly initialized.
+<p>
+Which AI Assistant you can use depends on the source software you choose to connect with. Positron currently supports integration with several AI platforms, including OpenAI's GPT-3, Anthropic's Claude, and others. You can select your preferred AI Assistant from the settings menu and follow the prompts to connect it to your Positron IDE. 
+<p>
+The page [Positron Assistant - Getting Started](https://positron.posit.co/assistant-getting-started.html) provides detailed instructions on how to set up the AI Assistant with different source software options, including how to obtain API keys and configure the connection settings.
+<p>
+For Anthropic's Claude, you will need to create an account on the Anthropic website and obtain an API key. Once you have the API key, you can enter it into the Positron settings to connect the AI Assistant to Claude. 
+- You can edit your environment variables to add the ANTHROPIC_API_KEY, just as in R/RStudio. This will allow you to use the AI Assistant with Claude without having to enter the API key directly into the Positron settings.
+<p>
+- Alternatively, you can choose to connect with Anthropic's Claude by obtaining an API key from the Anthropic website and entering it into the Positron settings:
+<p>
+  - Run the command Positron Assistant: Configure Language Model Providers in the Command Palette. This will open the configuration settings for the AI Assistant.
+<p>
+- For OpenAI's GPT-3, you will need to create an account on the OpenAI platform and obtain an API key. Once you have the API key, you can enter it into the Positron settings to connect the AI Assistant to GPT-3, same as for Anthropic's Claude.
+<p>
+- For other AI platforms, you can follow the specific instructions provided in the Positron documentation for connecting to those platforms. The process typically involves obtaining an API key from the respective platform and entering it into the Positron settings to establish the connection.
+<p>
+
+
+
+
+
+Once connected, you can start using the AI Assistant to get code suggestions, generate code snippets, and receive help with your coding tasks directly within the IDE.
 
 <p>
+
 
 ## Sources and References
 

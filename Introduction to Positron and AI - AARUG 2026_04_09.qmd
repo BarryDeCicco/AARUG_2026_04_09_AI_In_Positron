@@ -25,7 +25,7 @@ The Positron IDE offers a range of features, including: - A sleek and intuitive 
 
 <p>
 
-# Installation and Set-up (https://positron.posit.co/install.html):
+# [Installation and Set-up:](https://positron.posit.co/install.html):
 
 <p>
 
@@ -49,7 +49,7 @@ Before installing Positron, ensure that your system meets the following requirem
 
     <p>
 
-    ### Note: I found out that intalling Pyrefly (https://open-vsx.org/extension/meta/pyrefly) worked better.
+    ### Note: I found out that intalling [Pyrefly](https://open-vsx.org/extension/meta/pyrefly) worked better.
 
     <p>
 
@@ -75,7 +75,7 @@ Before installing Positron, ensure that your system meets the following requirem
 
     ## User Interface Overview:
 
-    One new major feature is the Command Palette, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE. <b>Note: you frequently have to search for the command that you want.</b>
+    One new major feature is the <b>Command Palette</b>, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE. <b>Note: you frequently have to search for the command that you want.</b>
 
     A second feature is the <b>left sidebar</b>, which has a series of icons:
 
@@ -93,7 +93,7 @@ Before installing Positron, ensure that your system meets the following requirem
 
 -   AI Assistant: provides access to AI-powered features such as code completion, suggestions, and more. You can interact with the AI Assistant to get help with coding tasks, generate code snippets, and receive recommendations for improving your code. This will appear once you have set up the AI Assistant with a source software (e.g., Claude AI).
 
-## Setting up GitHub Integration: (https://positron.posit.co/git.html)L
+## [Setting up GitHub Integration:](https://positron.posit.co/git.html):
 
 This works similarly to RStudio, but with a different interface. You can connect your GitHub account to Positron and manage your repositories directly from the IDE. This allows you to easily commit changes, push updates, and collaborate with others on your projects. - Open Folder to open an existing Git repository that you already have locally - New Folder from Template to create a new folder locally, with the option to initialize it as a Git repository - New Folder from Git to clone an existing Git repository from a remote source like GitHub -
 

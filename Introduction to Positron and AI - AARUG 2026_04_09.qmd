@@ -101,6 +101,7 @@ This works similarly to RStudio, but with a more modern interface. You can conne
  <p>
  - [Coding in R and Python with Positron](https://occasionaldivergences.com/posts/positron-intro/)
 <p>
+ - [Troubleshooting (Posit)] (https://positron.posit.co/troubleshooting.html)
 
 ### Other Resources:
 <p>

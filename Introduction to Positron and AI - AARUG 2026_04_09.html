@@ -132,10 +132,43 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/paste-2.png" class="img-fluid"></p>
 </section>
 <section id="setting-up-the-ai-assistant" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-the-ai-assistant">Setting up the AI Assistant:</h2>
+<h2 class="anchored" data-anchor-id="setting-up-the-ai-assistant"><a href="positron.posit.co/assistant-getting-started.html">Setting up the AI Assistant:</a></h2>
 <p>To set up the AI Assistant in Positron, you can follow these steps:</p>
 <p>
+</p><ul>
+<li><p>Enable the setting positron.assistant.enable in the settings menu (gear at the bottom of the left sidebar). This will allow you to access the AI Assistant features within the IDE.</p>
+<p></p></li>
+<li><p>Restart Positron or run the Developer: Reload Window command in the Command Palette. This will ensure that the changes take effect and the AI Assistant is properly initialized.</p>
+<p>
+</p><p>Which AI Assistant you can use depends on the source software you choose to connect with. Positron currently supports integration with several AI platforms, including OpenAI’s GPT-3, Anthropic’s Claude, and others. You can select your preferred AI Assistant from the settings menu and follow the prompts to connect it to your Positron IDE.</p>
+<p>
+</p><p>The page <a href="https://positron.posit.co/assistant-getting-started.html">Positron Assistant - Getting Started</a> provides detailed instructions on how to set up the AI Assistant with different source software options, including how to obtain API keys and configure the connection settings.</p>
+<p>
+</p><p>For Anthropic’s Claude, you will need to create an account on the Anthropic website and obtain an API key. Once you have the API key, you can enter it into the Positron settings to connect the AI Assistant to Claude.</p></li>
+<li><p>You can edit your environment variables to add the ANTHROPIC_API_KEY, just as in R/RStudio. This will allow you to use the AI Assistant with Claude without having to enter the API key directly into the Positron settings.</p>
+<p></p></li>
+<li><p>Alternatively, you can choose to connect with Anthropic’s Claude by obtaining an API key from the Anthropic website and entering it into the Positron settings:</p>
+<p>
+</p><ul>
+<li><p>Run the command Positron Assistant: Configure Language Model Providers in the Command Palette. This will open the configuration settings for the AI Assistant.</p>
+<p></p></li>
+</ul></li>
+<li><p>For OpenAI’s GPT-3, you will need to create an account on the OpenAI platform and obtain an API key. Once you have the API key, you can enter it into the Positron settings to connect the AI Assistant to GPT-3, same as for Anthropic’s Claude.</p>
+<p></p></li>
+<li><p>For other AI platforms, you can follow the specific instructions provided in the Positron documentation for connecting to those platforms. The process typically involves obtaining an API key from the respective platform and entering it into the Positron settings to establish the connection.</p>
+<p></p></li>
+</ul>
+<p>Once connected, you can start using the AI Assistant to get code suggestions, generate code snippets, and receive help with your coding tasks directly within the IDE.</p>
+<p>
 </p></section>
+<section id="using-the-ai-assistant" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-ai-assistant">Using the AI Assistant:</h2>
+<p>
+</p><p>When you have set up the Assistant, you will see this icon near the bottom of the left-hand sidebar:</p>
+<p><img src="images/paste-3.png" class="img-fluid"></p>
+<p>Clicking on it will open a ‘Chat’ pane on the left hand side. At the bottom will be a window to enter prompts. It will have a button showing what language it’s thinking of (R or Python).</p>
+<p>At that point you can use the AI by manually entering prompts, or by seeing the suggestions it enters as you type. You can hit ‘tab’ to accept them, or just keep typing.</p>
+</section>
 <section id="sources-and-references" class="level2">
 <h2 class="anchored" data-anchor-id="sources-and-references">Sources and References</h2>
 <section id="youtube-videos" class="level3">
@@ -164,25 +197,25 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="websites-blogs-and-documentation">Websites, Blogs and Documentation:</h3>
 <p>
 </p><ul>
-<li><a href="https://positron.ai/">Positron IDE official website:</a>
+<li><p><a href="https://positron.ai/">Positron IDE official website:</a></p>
 <p></p></li>
-<li><a href="https://docs.positron.ai/">Positron IDE documentation:</a>
+<li><p><a href="https://docs.positron.ai/">Positron IDE documentation:</a></p>
 <p></p></li>
-<li><a href="https://positron.posit.co/welcome.html">Welcome (Posit)</a>
+<li><p><a href="https://positron.posit.co/welcome.html">Welcome (Posit)</a></p>
 <p></p></li>
-<li><a href="https://positron.posit.co/install.html">Install Positron (Posit)</a>
+<li><p><a href="https://positron.posit.co/install.html">Install Positron (Posit)</a></p>
 <p></p></li>
-<li><a href="https://positron.posit.co/assistant-getting-started.html">Positron Assistant - Getting Started (Posit docs)</a>
+<li><p><a href="https://positron.posit.co/assistant-getting-started.html">Positron Assistant - Getting Started (Posit docs)</a></p>
 <p></p></li>
-<li><a href="https://docs.posit.co/ide/server-pro/user/positron/guide/positron-assistant.html">Positron Assistant (Posit docs)</a>
+<li><p><a href="https://docs.posit.co/ide/server-pro/user/positron/guide/positron-assistant.html">Positron Assistant (Posit docs)</a></p>
 <p></p></li>
-<li><a href="https://positron.posit.co/assistant.html">Positron Assistant (Posit)</a>
+<li><p><a href="https://positron.posit.co/assistant.html">Positron Assistant (Posit)</a></p>
 <p></p></li>
-<li><a href="https://ppbds.github.io/positron.tutorials/">Positron Tutorials (Posit)</a> - an R package of tutorials!
+<li><p><a href="https://ppbds.github.io/positron.tutorials/">Positron Tutorials (Posit)</a> - an R package of tutorials!</p>
 <p></p></li>
-<li><a href="https://occasionaldivergences.com/posts/positron-intro/">Coding in R and Python with Positron</a>
+<li><p><a href="https://occasionaldivergences.com/posts/positron-intro/">Coding in R and Python with Positron</a></p>
 <p></p></li>
-<li>[Troubleshooting (Posit)] (https://positron.posit.co/troubleshooting.html)</li>
+<li><p>[Troubleshooting (Posit)] (https://positron.posit.co/troubleshooting.html)</p></li>
 </ul>
 </section>
 <section id="other-resources" class="level3">

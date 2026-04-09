@@ -63,27 +63,99 @@ ul.task-list li input[type="checkbox"] {
 <section id="sections" class="level1">
 <h1>Sections:</h1>
 <p>
+</p><section id="what-is-the-positron-ide" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-positron-ide">What is the Positron IDE?</h2>
+<p>
+</p><p>The positron IDE is a new integrated development environment (IDE) designed for data science and programming in R and Python. It is developed by Posit, the company behind RStudio, and aims to provide a modern, efficient, and AI-powered coding experience for data scientists and programmers.</p>
+<p>
+</p><p>The Positron IDE offers a range of features, including: - A sleek and intuitive user interface that is designed to enhance productivity and ease of use. - Support for both R and Python programming languages, allowing users to work with their preferred language in a single environment. - AI-powered code completion and suggestions, which can help users write code faster and with fewer errors. - Integration with GitHub for version control and collaboration. - A built-in terminal for running commands and scripts directly within the IDE.</p>
+<section id="note-the-user-intface-has-clear-roots-in-rstudio-but-has-a-very-large-number-of-changes." class="level3">
+<h3 class="anchored" data-anchor-id="note-the-user-intface-has-clear-roots-in-rstudio-but-has-a-very-large-number-of-changes.">Note: The user intface has clear roots in RStudio, but has a very large number of changes.</h3>
+<p>
+</p><p>
 </p></section>
-<section id="sources-and-references" class="level1">
-<h1>Sources and References</h1>
+</section>
+</section>
+<section id="installation-and-set-up" class="level1">
+<h1><a href="https://positron.posit.co/install.html">Installation and Set-up:</a>:</h1>
+<p>
+</p><section id="check-prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="check-prerequisites">Check Prerequisites:</h2>
+<p>
+</p><p>Before installing Positron, ensure that your system meets the following requirements</p>
+<p>
+</p><ul>
+<li><p>Operating System: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.</p>
+<p></p></li>
+<li><p>Hardware: A modern computer with at least 8 GB of RAM and a multi-core processor is recommended for optimal performance.</p>
+<p></p></li>
+<li><p>Software: Ensure that you have the latest version of R and Python installed on your system, as Positron relies on these languages for its functionality.</p>
+<p>
+</p><h3 id="note-i-found-out-that-intalling-pyrefly-worked-better." class="anchored">Note: I found out that intalling <a href="https://open-vsx.org/extension/meta/pyrefly">Pyrefly</a> worked better.</h3>
+<p>
+</p><h2 id="download-and-install-positron-for-windows-or-other-systems" class="anchored">Download and Install Positron for Windows (or other systems)</h2>
+<p>
+</p><p>In the middle of the Welcome page (https://positron.posit.co/welcome.html) has options such as:</p></li>
+<li><p>Get Started (download/install)</p></li>
+<li><p>Explore Features</p></li>
+<li><p>Customize your IDE</p></li>
+<li><p>Set up your environment</p></li>
+<li><p>Migrate from RStudio</p></li>
+<li><p>Migrate from VS Code.</p>
+<p>
+</p><h2 id="user-interface-overview" class="anchored">User Interface Overview:</h2>
+<p>One new major feature is the <b>Command Palette</b>, which allows you to quickly access various commands and features within the IDE. You can open the Command Palette by pressing <code>Ctrl + Shift + P</code> (or <code>Cmd + Shift + P</code> on macOS) and then typing the command you want to execute. This feature is designed to enhance productivity and make it easier to navigate the IDE. <b>Note: you frequently have to search for the command that you want.</b></p>
+<p>A second feature is the <b>left sidebar</b>, which has a series of icons:</p>
+<p></p></li>
+<li><p>File Explorer: allows you to navigate and manage your project files and folders.</p></li>
+<li><p>GitHub: provides integration with GitHub for version control and collaboration.</p></li>
+<li><p>Search: allows you to search for files, symbols, and text within your project.</p></li>
+<li><p>Extensions: allows you to browse and install extensions to enhance the functionality of the IDE.</p></li>
+<li><p>Settings: provides access to various settings and preferences for customizing your IDE experience.</p></li>
+<li><p>AI Assistant: provides access to AI-powered features such as code completion, suggestions, and more. You can interact with the AI Assistant to get help with coding tasks, generate code snippets, and receive recommendations for improving your code. This will appear once you have set up the AI Assistant with a source software (e.g., Claude AI).</p></li>
+</ul>
+</section>
+<section id="setting-up-github-integration" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-github-integration"><a href="https://positron.posit.co/git.html">Setting up GitHub Integration:</a>:</h2>
+<p>This works similarly to RStudio, but with a different interface. You can connect your GitHub account to Positron and manage your repositories directly from the IDE. This allows you to easily commit changes, push updates, and collaborate with others on your projects. - Open Folder to open an existing Git repository that you already have locally - New Folder from Template to create a new folder locally, with the option to initialize it as a Git repository - New Folder from Git to clone an existing Git repository from a remote source like GitHub -</p>
+<p>
+</p><ul>
+<li>You can use the button in the lower left corner to set up a connection with Github and sign into Github:</li>
+</ul>
+<p><img src="images/paste-1.png" class="img-fluid"></p>
+<ul>
+<li><p>Alternatively, you can use the Command Palette to search for GitHub-related commands, such as “GitHub: Sign In” or “GitHub: Clone Repository,” to set up your GitHub integration.</p></li>
+<li><p>To clone a repository, you can use the “GitHub: Clone Repository” command in the Command Palette, which will prompt you to enter the URL of the repository you want to clone. Once you provide the URL, Positron will handle the cloning process and set up the repository in your local environment.</p></li>
+<li><p>To publish local work to GitHub, you can use the “GitHub: Publish Repository” command in the Command Palette. This will allow you to create a new repository on GitHub and push your local changes to it directly from the IDE.</p></li>
+</ul>
+<p>The left sidebar also provides a GitHub icon that you can click to access your repositories, view changes, and manage your GitHub integration more easily:</p>
+<p><img src="images/paste-2.png" class="img-fluid"></p>
+</section>
+<section id="setting-up-the-ai-assistant" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-the-ai-assistant">Setting up the AI Assistant:</h2>
+<p>To set up the AI Assistant in Positron, you can follow these steps:</p>
+<p>
+</p></section>
+<section id="sources-and-references" class="level2">
+<h2 class="anchored" data-anchor-id="sources-and-references">Sources and References</h2>
 <section id="youtube-videos" class="level3">
 <h3 class="anchored" data-anchor-id="youtube-videos">YouTube Videos:</h3>
 <p>
 </p><ul>
-<li>Installlation and set-up of Positron IDE:
+<li><p>Installlation and set-up of Positron IDE:</p>
 <p>
 </p><ul>
-<li><a href="https://www.youtube.com/watch?v=VPHuCl8asjQ&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=9&amp;t=1s">Positron IDE for R &amp; Python | How to Install &amp; Use | Better than RStudio? (Statistics Globe)</a>
+<li><p><a href="https://www.youtube.com/watch?v=VPHuCl8asjQ&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=9&amp;t=1s">Positron IDE for R &amp; Python | How to Install &amp; Use | Better than RStudio? (Statistics Globe)</a></p>
 <p></p></li>
-<li><a href="https://www.youtube.com/watch?v=5BojM5EciPs">First look at Positron, exploring orca encounters (by Julia Silge, Posit)</a>
+<li><p><a href="https://www.youtube.com/watch?v=5BojM5EciPs">First look at Positron, exploring orca encounters (by Julia Silge, Posit)</a></p>
 <p></p></li>
 </ul></li>
-<li>AI features in Positron:
+<li><p>AI features in Positron:</p>
 <p>
 </p><ul>
-<li><a href="https://www.youtube.com/watch?v=JTv4IbFzI7M&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=2">How to use Positron’s GitHub integration (Posit)</a>
+<li><p><a href="https://www.youtube.com/watch?v=JTv4IbFzI7M&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=2">How to use Positron’s GitHub integration (Posit)</a></p>
 <p></p></li>
-<li><a href="https://www.youtube.com/watch?v=TrN-FMcOsOA&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=5">AI-Powered Data Science in Positron (Posit)</a>
+<li><p><a href="https://www.youtube.com/watch?v=TrN-FMcOsOA&amp;list=PLnORDsS8KLUe9bn-sBHSGCJE2TffgqDdo&amp;index=5">AI-Powered Data Science in Positron (Posit)</a></p>
 <p></p></li>
 </ul></li>
 </ul>
@@ -96,9 +168,31 @@ ul.task-list li input[type="checkbox"] {
 <p></p></li>
 <li><a href="https://docs.positron.ai/">Positron IDE documentation:</a>
 <p></p></li>
+<li><a href="https://positron.posit.co/welcome.html">Welcome (Posit)</a>
+<p></p></li>
+<li><a href="https://positron.posit.co/install.html">Install Positron (Posit)</a>
+<p></p></li>
+<li><a href="https://positron.posit.co/assistant-getting-started.html">Positron Assistant - Getting Started (Posit docs)</a>
+<p></p></li>
+<li><a href="https://docs.posit.co/ide/server-pro/user/positron/guide/positron-assistant.html">Positron Assistant (Posit docs)</a>
+<p></p></li>
+<li><a href="https://positron.posit.co/assistant.html">Positron Assistant (Posit)</a>
+<p></p></li>
+<li><a href="https://ppbds.github.io/positron.tutorials/">Positron Tutorials (Posit)</a> - an R package of tutorials!
+<p></p></li>
 <li><a href="https://occasionaldivergences.com/posts/positron-intro/">Coding in R and Python with Positron</a>
 <p></p></li>
+<li>[Troubleshooting (Posit)] (https://positron.posit.co/troubleshooting.html)</li>
 </ul>
+</section>
+<section id="other-resources" class="level3">
+<h3 class="anchored" data-anchor-id="other-resources">Other Resources:</h3>
+<p>
+</p><ul>
+<li><p><a href="https://open-vsx.org/extension/meta/pyrefly">Pyrefly - Python Language Tooling (recommended Python for Positron)</a></p>
+<p></p></li>
+</ul>
+</section>
 </section>
 </section>
 
